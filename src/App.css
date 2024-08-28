@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("./assets/fonts/SegoeUI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Fixel Display";
+  src: url("./assets/fonts/FixelDisplay-Regular.woff") format("woff");
+}
+.creditCard {
+  fill: var(--main-color);
+}
+.mainbg {
+  background: var(--main-color);
+  color: white;
+}
+.tapColor {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+.iconsColor {
+  fill: var(--main-textcolor);
+}
+
+.activeBorder {
+  border-color: var(--main-color);
+}
+.font {
+  font-family: var(--main-font);
+}
+.cornerPresent {
+  border-radius: var(--lg-rounded);
+}
+.leftBorderRadius {
+  border-top-left-radius: var(--full-corner);
+  border-bottom-left-radius: var(--full-corner);
+}
+.rightBorderRadius {
+  border-top-right-radius: var(--full-corner);
+  border-bottom-right-radius: var(--full-corner);
+}
+.cornerSetting {
+  border-radius: var(--md-rounded);
+}
+.fullCorner {
+  border-radius: var(--full-corner);
+}
+.lightmode {
+  background: var(--main-bgcolor);
+  color: var(--main-textcolor);
+}
+.bgcolor {
+  background: var(--bgcolor);
+  color: var(--main-textcolor);
+}
+
+/* .scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll::-webkit-scrollbar-track,
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 99999px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+} */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #20224544;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #202245;
+}
