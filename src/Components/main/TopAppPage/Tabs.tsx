@@ -9,7 +9,7 @@ const Tabs = () => {
   };
   return (
     <div className="flex-1 flex flex-col">
-      <div className="flex border-b-2">
+      <div className="flex tab_box">
         {tabsElements.map((e) => (
           <Tab
             key={e.id}
